@@ -1,0 +1,190 @@
+:root{
+    --dark-color: #000000;
+    --green-color:rgb(113,206,126);
+    --purple:rgb(106, 49, 156);
+}
+.body{
+    background-color: var(--dark-color);
+    font-family: 'Montserrat', sans-serif;
+    height: 10000px;
+}
+/* navbar */
+.navbar{
+    background-color: transparent;
+}
+.navbar .navbar-nav .nav-link{
+    color:white;
+    font-weight: 500;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color : var(--purple)
+
+}
+.navbar .navbar-toggler{
+    color:white;
+    font-size: 25px;
+    border-color:white;
+}
+/* landing page main video */
+.video-section {
+    position: relative;
+    height: 100vh; /* Set the height to cover the entire viewport */
+    overflow: hidden;
+ }
+ 
+ video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: var(--purple);
+    opacity: .75;
+ }
+
+.content-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the background color and transparency */
+}
+
+.content-overlay h1 {
+    margin: 0;
+}
+#main-button{
+  color: rgb(106, 49, 156);
+  border-color: rgb(106, 49, 156);
+}
+#main-button:hover{
+  background-color: rgb(106, 49, 156);
+  border-color: rgb(106, 49, 156);
+  color: #fff;
+}
+
+/* Cards */
+        .card {
+            border: none; /* Remove card border */
+            background-color: transparent; /* Set card background color with transparency */
+            color: #fff; /* Set text color to white */
+            margin-bottom: 20px; /* Add margin between cards */
+        }
+
+        /* Optional: Style card titles and text */
+        .card-title,
+        .card-text {
+            color: #fff; /* Set text color to white */
+        }
+
+/* Samples */
+
+.sample-section {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.sample-item {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .sample-item {
+      width: 33.33%;
+  }
+}
+
+.view-all-button,
+.view-less-button {
+  margin-top: 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.view-less-button {
+  display: none;
+}
+/* contact form */
+.contact-section {
+    padding: 50px 0;
+    text-align: start;
+  }
+
+  .contact-container {
+    background-color: transparent; /* Set container background color with transparency */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ced4da; /* Line under the input fields */
+    border-radius: 0;
+    margin-top: 5px; /* Adjust the top margin for better spacing */
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+  }
+  .btn-outline-primary {
+    color: rgb(106, 49, 156);
+    border-color: rgb(106, 49, 156);
+  }
+
+  .btn-outline-primary:hover {
+    background-color: rgb(106, 49, 156);
+    border-color: rgb(106, 49, 156);
+    color: #fff; /* Text color on hover */
+  }
+  .meeting-container{
+    width:100vw;
+    height:100vh;
+    padding:20px;
+  }
+
+/* footer */
+.footer{
+    background-color: #000; /* Set the background color to black */
+    color: #fff; /* Set the text color to white */
+    padding: 20px 0; /* Add padding for better appearance */
+    text-align: center; /* Center-align text */
+}
+.instagram-icon {
+    font-size: 24px; /* Adjust the icon size */
+    /* margin-left: 5px; Optional: Add margin to the left of the icon */
+}
+/* place holder testing */
+/* .form-control::placeholder{
+  color: white;
+  opacity: 1;
+} */
+.form-control{
+  background-color: transparent !important;
+  color: white;
+}
+.form-control::placeholder{
+color: white;
+}

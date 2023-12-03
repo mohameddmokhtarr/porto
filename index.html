@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/mikha.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: black; color: white;">
+  <section class="video-section">
+        <!-- Video Background -->
+        <video autoplay muted loop class="position-absolute top-0 start-0 w-100 h-100">
+          <source src="video-editor.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+    <!-- Content above the video -->
+<div class="content-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white">
+  <div class="container text-center text-start">
+    <h1 class="fw-bold" style="font-size: 52px;">Turning Videos into <br>a Masterpiece</h1>
+  </div>
+    <div class="container mt-3">
+      <button type="button" class="btn btn-primary" id="main-button"
+        style="--bs-btn-padding-y: .3rem; --bs-btn-padding-x: .7rem; --bs-btn-font-size: .75rem; background-color: rgb(106, 49, 156); border-color: rgb(106, 49, 156);">
+        Contact Us
+      </button>
+    </div>
+  </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+          <a class="navbar-brand" href="#home">
+              <img src="logo2.png" alt="Bootstrap" width="100vw" height="100vh">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+              aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="main">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item p-2 p-lg-3">
+                      <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item p-2 p-lg-3">
+                      <a class="nav-link" href="#about">About Me</a>
+                  </li>
+                  <li class="nav-item p-2 p-lg-3">
+                      <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item p-2 p-lg-3">
+                      <a class="nav-link" href="#work">Work</a>
+                  </li>
+                  <li class="nav-item p-2 p-lg-3">
+                      <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</section>
+<!-- second section -->
+<section class="container custom-container my-5 " id="about" >
+  <div class="row">
+    <!-- Left Div -->
+    <div class="col-md-6 ">
+      <p class="fs-2 fw-medium lh-base">I'm Mo, a professional video editor</p>
+    </div>
+
+    <!-- Right Div -->
+    <div class="col-md-6">
+      <div class="d-flex flex-column h-100 justify-content-center align-items-start">
+        <img src="personal.PNG" alt="Mo" width="100vw" height="100vh">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- cards section -->
+<div class="container" id="services">
+  <div class="row">
+    <p class="fs-2 fw-medium">I'm specialized</p>
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-md-6">
+          <div class="card">
+              <img src="card1.jpg" class="card-img-top" alt="Image 1">
+              <div class="card-body">
+                  <h5 class="card-title">Short Form Content Crafting</h5>
+                  <p class="card-text">In the realm of brief but impactful storytelling, I specialize in crafting compelling short form content. Elevate your message with concise narratives, vibrant visuals, and an authentic connection. Let's captivate your audience in seconds</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-md-6">
+          <div class="card">
+              <img src="card2.jpg" class="card-img-top" alt="Image 2">
+              <div class="card-body">
+                  <h5 class="card-title">Captivating Storytelling through <br>Audio Editing</h5>
+                  <p class="card-text">Crafting captivating audio experiences is my forte. From warm voiceovers to heart-touching soundscapes, I weave emotions into your content. Let's make your story resonate</p>
+              </div>
+          </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-md-6">
+          <div class="card">
+              <img src="card3.jpg" class="card-img-top" alt="Image 3">
+              <div class="card-body">
+                  <h5 class="card-title">Visual Effects and Motion Graphics </h5>
+                  <p class="card-text">Let's infuse your videos with a touch of magic! As a specialist in Visual Effects and Motion Graphics, I bring heart to your short-form content.Seamless transitions, energetic animations, and each frame carefully Crafted to tell a story that sticks.From futuristic vibes to lively animations</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- work samples -->
+<section class="sample-section" id="work">
+  <div class="container">
+      <h2 class="mb-4">Sample Samples</h2>
+
+      <div class="row">
+          <!-- Displaying the three primary samples -->
+          <div class="col-lg-4 col-md-6 sample-item">
+              <iframe width="100%" height="315" src="Sample-1.mp4" frameborder="0"
+                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-lg-4 col-md-6 sample-item">
+              <iframe width="100%" height="315" src="Sample-2.mp4" frameborder="0"
+                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-lg-4 col-md-6 sample-item">
+              <iframe width="100%" height="315" src="Sample-3.mp4" frameborder="0"
+                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          <!-- Hidden additional samples -->
+          <div class="col-lg-4 col-md-6 sample-item additional-sample" style="display: none;">
+              <iframe width="100%" height="315" src="Sample-4.mp4" frameborder="0"
+                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-lg-4 col-md-6 sample-item additional-sample" style="display: none;">
+              <iframe width="100%" height="315" src="Sample-5.mp4" frameborder="0"
+                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-lg-4 col-md-6 sample-item additional-sample" style="display: none;">
+              <iframe width="100%" height="315" src="Sample-6.mp4" frameborder="0"
+                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+      </div>
+
+      <button class="view-all-button" onclick="showAllSamples()">View All</button>
+      <button class="view-less-button" onclick="showPrimarySamples()">View Less</button>
+  </div>
+<!-- contact form -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <h2>Schedule Now</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="contact-container">
+          <form action="#" method="post">
+            <!-- Name Field -->
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+            </div>
+
+            <!-- Email Field -->
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+            </div>
+
+            <!-- Date Field -->
+            <div class="form-group">
+              <input type="date" class="form-control" id="date" name="date" required>
+            </div>
+
+            <!-- Message Field -->
+            <div class="form-group">
+              <textarea class="form-control" id="message" name="message" placeholder="Message" rows="4" required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-outline-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="meeting-container">
+        <img src="meeting-schedule.jpg" alt="Schedule Now!" class="img-fluid" width="404" height="600">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer with copyright notice -->
+    <footer>
+      <div class="container">
+          <p>&copy; 2023 Mo. All rights reserved.</p>
+      </div>
+      <!-- <div>
+        <i class="fab fa-instagram instagram-icon" style="color: #ffffff;"></i>
+    </div> -->
+  </footer>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script>
+      document.querySelectorAll('a.nav-link').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+
+              const targetId = this.getAttribute('href').substring(1);
+              const targetElement = document.getElementById(targetId);
+
+              window.scrollTo({
+                  behavior: 'smooth',
+                  top: targetElement.offsetTop
+              });
+          });
+      });
+      function showAllSamples() {
+            document.querySelectorAll('.additional-sample').forEach(function (element) {
+                element.style.display = 'flex';
+            });
+
+            document.querySelector('.view-all-button').style.display = 'none';
+            document.querySelector('.view-less-button').style.display = 'inline-block';
+        }
+
+        function showPrimarySamples() {
+            document.querySelectorAll('.additional-sample').forEach(function (element) {
+                element.style.display = 'none';
+            });
+
+            document.querySelector('.view-all-button').style.display = 'inline-block';
+            document.querySelector('.view-less-button').style.display = 'none';
+        }
+  </script>
+</body>
+</html>
